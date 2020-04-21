@@ -1,0 +1,58 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        GumballMachine gumballMachine = new GumballMachine();
+
+        gumballMachine.turnHandle();
+        gumballMachine.removeQuarter();
+        gumballMachine.insertQuarter();
+        gumballMachine.insertQuarter();
+        gumballMachine.turnHandle();
+        gumballMachine.removeQuarter();
+        gumballMachine.turnHandle();
+        System.out.println("Gumballs:");
+        System.out.println(gumballMachine.getGumballs());
+        System.out.println("Coins:");
+        System.out.println(gumballMachine.getCoins());
+        gumballMachine.addGumballs(2);
+        System.out.println("Gumballs:");
+        System.out.println(gumballMachine.getGumballs());
+        System.out.println("Coins:");
+        System.out.println(gumballMachine.getCoins());
+        gumballMachine.turnHandle();
+        gumballMachine.removeQuarter();
+        gumballMachine.insertQuarter();
+        gumballMachine.removeQuarter();
+        gumballMachine.insertQuarter();
+        gumballMachine.turnHandle();
+        System.out.println("Gumballs:");
+        System.out.println(gumballMachine.getGumballs());
+        System.out.println("Coins:");
+        System.out.println(gumballMachine.getCoins());
+        gumballMachine.turnHandle();
+        gumballMachine.insertQuarter();
+        gumballMachine.turnHandle();
+        System.out.println("Gumballs:");
+        System.out.println(gumballMachine.getGumballs());
+        System.out.println("Coins:");
+        System.out.println(gumballMachine.getCoins());
+        gumballMachine.insertQuarter();
+        gumballMachine.turnHandle();
+        System.out.println("Gumballs:");
+        System.out.println(gumballMachine.getGumballs());
+        System.out.println("Coins:");
+        System.out.println(gumballMachine.getCoins());
+        gumballMachine.addGumballs(1);
+        System.out.println("Gumballs:");
+        System.out.println(gumballMachine.getGumballs());
+        System.out.println("Coins:");
+        System.out.println(gumballMachine.getCoins());
+        gumballMachine.turnHandle();
+        System.out.println("Gumballs:");
+        System.out.println(gumballMachine.getGumballs());
+        System.out.println("Coins:");
+        System.out.println(gumballMachine.getCoins());
+        gumballMachine.turnHandle();
+    }
+}
